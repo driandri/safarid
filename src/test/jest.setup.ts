@@ -1,6 +1,6 @@
 import "isomorphic-unfetch";
-import nock from "nock";
 import dotenv from "dotenv";
+const nock = require("nock");
 
 dotenv.config({ path: ".env.test" });
 
